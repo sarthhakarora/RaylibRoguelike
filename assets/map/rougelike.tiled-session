@@ -1,0 +1,81 @@
+{
+    "activeFile": "untitled.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "0x72_DungeonTilesetII_v1.7.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
+        "MasterSimple.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 1
+        },
+        "asdf.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "main.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map1.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 130.75,
+                "y": 103
+            }
+        },
+        "sprite_088_flip.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sprite_090_flip.tsx": {
+            "scaleInDock": 1
+        },
+        "sprite_092_flip.tsx": {
+            "scaleInDock": 1
+        },
+        "untitled.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 784.3333333333333,
+                "y": 816.8333333333333
+            }
+        },
+        "wer.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/home/sarthhak/coding projects/roguelike/assets/map",
+    "last.imagePath": "/home/sarthhak/coding projects/roguelike/assets",
+    "map.lastUsedExportFilter": "CSV files (*.csv)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "untitled.tmx",
+        "0x72_DungeonTilesetII_v1.7.tsx",
+        "wer.tsx"
+    ],
+    "project": "rougelike.tiled-project",
+    "recentFiles": [
+        "wer.tsx",
+        "0x72_DungeonTilesetII_v1.7.tsx",
+        "untitled.tmx",
+        "main.tsx",
+        "asdf.tsx",
+        "map1.tmx",
+        "MasterSimple.tsx",
+        "sprite_088_flip.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
