@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/src/filereader.cpp.o: \
- /home/sarthhak/coding\ projects/roguelike/src/filereader.cpp \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/filereader.cpp \
  /usr/include/stdc-predef.h \
- /home/sarthhak/coding\ projects/roguelike/src/filereader.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/filereader.h \
  /usr/include/c++/14.2.1/fstream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \

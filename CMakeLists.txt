@@ -1,12 +1,32 @@
 cmake_minimum_required(VERSION 3.10)
-project(game)
 
+# Project name and version
+project(game VERSION 1.0)
 
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Include directories
+include_directories(include)
+
+# Link directories (where the Raylib library is located)
+link_directories(lib)
+ 
 # Add source files
-add_executable(game src/main.cpp src/player.cpp src/filereader.cpp src/tilesystem.cpp src/camera.cpp src/weapon.cpp src/enemy.cpp src/score.cpp)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-# Link libraries
-find_package(raylib REQUIRED)
+# Add the executable
+add_executable(${PROJECT_NAME} ${SOURCES})
 
-# g++ main.cpp player.cpp -o game -lraylib -lm -ldl -lpthread -lGL -lX11
-target_link_libraries(game raylib dl pthread m X11 GL)
+# Link Raylib (and other required libraries)
+target_link_libraries(${PROJECT_NAME} raylib)
+
+# Platform-specific dependencies
+if (UNIX AND NOT APPLE)
+    target_link_libraries(${PROJECT_NAME} m pthread dl)
+elseif (APPLE)
+    target_link_libraries(${PROJECT_NAME} "-framework OpenGL" "-framework Cocoa" "-framework IOKit" "-framework CoreVideo")
+elseif (WIN32)
+    target_link_libraries(${PROJECT_NAME} opengl32 gdi32 winmm)
+endif()

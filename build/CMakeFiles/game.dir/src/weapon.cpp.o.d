@@ -1,10 +1,10 @@
 CMakeFiles/game.dir/src/weapon.cpp.o: \
- /home/sarthhak/coding\ projects/roguelike/src/weapon.cpp \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/weapon.cpp \
  /usr/include/stdc-predef.h \
- /home/sarthhak/coding\ projects/roguelike/src/weapon.h \
- /usr/local/include/raylib.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/weapon.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/include/raylib.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
- /home/sarthhak/coding\ projects/roguelike/src/enemy.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.h \
  /usr/include/c++/14.2.1/vector \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -147,7 +147,8 @@ CMakeFiles/game.dir/src/weapon.cpp.o: \
  /usr/include/c++/14.2.1/bits/locale_facets.tcc \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
- /usr/include/c++/14.2.1/bits/istream.tcc /usr/local/include/raymath.h \
+ /usr/include/c++/14.2.1/bits/istream.tcc \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/include/raymath.h \
  /usr/include/c++/14.2.1/math.h /usr/include/c++/14.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \

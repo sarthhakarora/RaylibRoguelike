@@ -1,7 +1,7 @@
 CMakeFiles/game.dir/src/tilesystem.cpp.o: \
- /home/sarthhak/coding\ projects/roguelike/src/tilesystem.cpp \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/tilesystem.cpp \
  /usr/include/stdc-predef.h \
- /home/sarthhak/coding\ projects/roguelike/src/tilesystem.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/tilesystem.h \
  /usr/include/c++/14.2.1/vector \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -58,7 +58,7 @@ CMakeFiles/game.dir/src/tilesystem.cpp.o: \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.1/tuple \
- /home/sarthhak/coding\ projects/roguelike/src/filereader.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/filereader.h \
  /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/iosfwd \
  /usr/include/c++/14.2.1/bits/stringfwd.h \
@@ -151,5 +151,6 @@ CMakeFiles/game.dir/src/tilesystem.cpp.o: \
  /usr/include/c++/14.2.1/bits/codecvt.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/14.2.1/bits/fstream.tcc /usr/local/include/raylib.h \
+ /usr/include/c++/14.2.1/bits/fstream.tcc \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/include/raylib.h \
  /usr/include/c++/14.2.1/iostream

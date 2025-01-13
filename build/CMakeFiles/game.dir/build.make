@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/sarthhak/coding projects/roguelike"
+CMAKE_SOURCE_DIR = "/home/sarthhak/coding projects/RaylibRoguelike"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/sarthhak/coding projects/roguelike/build"
+CMAKE_BINARY_DIR = "/home/sarthhak/coding projects/RaylibRoguelike/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/game.dir/depend.make
@@ -72,145 +72,144 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/codegen:
 .PHONY : CMakeFiles/game.dir/codegen
 
-CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/main.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/main.cpp
-CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/main.cpp"
-
-CMakeFiles/game.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/main.cpp" > CMakeFiles/game.dir/src/main.cpp.i
-
-CMakeFiles/game.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/main.cpp" -o CMakeFiles/game.dir/src/main.cpp.s
-
-CMakeFiles/game.dir/src/player.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/player.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/player.cpp
-CMakeFiles/game.dir/src/player.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/player.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/player.cpp.o -MF CMakeFiles/game.dir/src/player.cpp.o.d -o CMakeFiles/game.dir/src/player.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/player.cpp"
-
-CMakeFiles/game.dir/src/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/player.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/player.cpp" > CMakeFiles/game.dir/src/player.cpp.i
-
-CMakeFiles/game.dir/src/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/player.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/player.cpp" -o CMakeFiles/game.dir/src/player.cpp.s
-
-CMakeFiles/game.dir/src/filereader.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/filereader.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/filereader.cpp
-CMakeFiles/game.dir/src/filereader.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/filereader.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/filereader.cpp.o -MF CMakeFiles/game.dir/src/filereader.cpp.o.d -o CMakeFiles/game.dir/src/filereader.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/filereader.cpp"
-
-CMakeFiles/game.dir/src/filereader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/filereader.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/filereader.cpp" > CMakeFiles/game.dir/src/filereader.cpp.i
-
-CMakeFiles/game.dir/src/filereader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/filereader.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/filereader.cpp" -o CMakeFiles/game.dir/src/filereader.cpp.s
-
-CMakeFiles/game.dir/src/tilesystem.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/tilesystem.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/tilesystem.cpp
-CMakeFiles/game.dir/src/tilesystem.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/tilesystem.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/tilesystem.cpp.o -MF CMakeFiles/game.dir/src/tilesystem.cpp.o.d -o CMakeFiles/game.dir/src/tilesystem.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/tilesystem.cpp"
-
-CMakeFiles/game.dir/src/tilesystem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/tilesystem.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/tilesystem.cpp" > CMakeFiles/game.dir/src/tilesystem.cpp.i
-
-CMakeFiles/game.dir/src/tilesystem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/tilesystem.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/tilesystem.cpp" -o CMakeFiles/game.dir/src/tilesystem.cpp.s
-
 CMakeFiles/game.dir/src/camera.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/camera.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/camera.cpp
+CMakeFiles/game.dir/src/camera.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/camera.cpp
 CMakeFiles/game.dir/src/camera.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/camera.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/camera.cpp.o -MF CMakeFiles/game.dir/src/camera.cpp.o.d -o CMakeFiles/game.dir/src/camera.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/camera.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/camera.cpp.o -MF CMakeFiles/game.dir/src/camera.cpp.o.d -o CMakeFiles/game.dir/src/camera.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/camera.cpp"
 
 CMakeFiles/game.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/camera.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/camera.cpp" > CMakeFiles/game.dir/src/camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/camera.cpp" > CMakeFiles/game.dir/src/camera.cpp.i
 
 CMakeFiles/game.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/camera.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/camera.cpp" -o CMakeFiles/game.dir/src/camera.cpp.s
-
-CMakeFiles/game.dir/src/weapon.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/weapon.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/weapon.cpp
-CMakeFiles/game.dir/src/weapon.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/weapon.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/weapon.cpp.o -MF CMakeFiles/game.dir/src/weapon.cpp.o.d -o CMakeFiles/game.dir/src/weapon.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/weapon.cpp"
-
-CMakeFiles/game.dir/src/weapon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/weapon.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/weapon.cpp" > CMakeFiles/game.dir/src/weapon.cpp.i
-
-CMakeFiles/game.dir/src/weapon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/weapon.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/weapon.cpp" -o CMakeFiles/game.dir/src/weapon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/camera.cpp" -o CMakeFiles/game.dir/src/camera.cpp.s
 
 CMakeFiles/game.dir/src/enemy.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/enemy.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/enemy.cpp
+CMakeFiles/game.dir/src/enemy.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.cpp
 CMakeFiles/game.dir/src/enemy.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/enemy.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/enemy.cpp.o -MF CMakeFiles/game.dir/src/enemy.cpp.o.d -o CMakeFiles/game.dir/src/enemy.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/enemy.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/enemy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/enemy.cpp.o -MF CMakeFiles/game.dir/src/enemy.cpp.o.d -o CMakeFiles/game.dir/src/enemy.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/enemy.cpp"
 
 CMakeFiles/game.dir/src/enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/enemy.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/enemy.cpp" > CMakeFiles/game.dir/src/enemy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/enemy.cpp" > CMakeFiles/game.dir/src/enemy.cpp.i
 
 CMakeFiles/game.dir/src/enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/enemy.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/enemy.cpp" -o CMakeFiles/game.dir/src/enemy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/enemy.cpp" -o CMakeFiles/game.dir/src/enemy.cpp.s
+
+CMakeFiles/game.dir/src/filereader.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/filereader.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/filereader.cpp
+CMakeFiles/game.dir/src/filereader.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/filereader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/filereader.cpp.o -MF CMakeFiles/game.dir/src/filereader.cpp.o.d -o CMakeFiles/game.dir/src/filereader.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/filereader.cpp"
+
+CMakeFiles/game.dir/src/filereader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/filereader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/filereader.cpp" > CMakeFiles/game.dir/src/filereader.cpp.i
+
+CMakeFiles/game.dir/src/filereader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/filereader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/filereader.cpp" -o CMakeFiles/game.dir/src/filereader.cpp.s
+
+CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/main.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/main.cpp
+CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/main.cpp.o -MF CMakeFiles/game.dir/src/main.cpp.o.d -o CMakeFiles/game.dir/src/main.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp"
+
+CMakeFiles/game.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp" > CMakeFiles/game.dir/src/main.cpp.i
+
+CMakeFiles/game.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp" -o CMakeFiles/game.dir/src/main.cpp.s
+
+CMakeFiles/game.dir/src/player.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/player.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.cpp
+CMakeFiles/game.dir/src/player.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/game.dir/src/player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/player.cpp.o -MF CMakeFiles/game.dir/src/player.cpp.o.d -o CMakeFiles/game.dir/src/player.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp"
+
+CMakeFiles/game.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp" > CMakeFiles/game.dir/src/player.cpp.i
+
+CMakeFiles/game.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp" -o CMakeFiles/game.dir/src/player.cpp.s
 
 CMakeFiles/game.dir/src/score.cpp.o: CMakeFiles/game.dir/flags.make
-CMakeFiles/game.dir/src/score.cpp.o: /home/sarthhak/coding\ projects/roguelike/src/score.cpp
+CMakeFiles/game.dir/src/score.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/score.cpp
 CMakeFiles/game.dir/src/score.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/score.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/score.cpp.o -MF CMakeFiles/game.dir/src/score.cpp.o.d -o CMakeFiles/game.dir/src/score.cpp.o -c "/home/sarthhak/coding projects/roguelike/src/score.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/game.dir/src/score.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/score.cpp.o -MF CMakeFiles/game.dir/src/score.cpp.o.d -o CMakeFiles/game.dir/src/score.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp"
 
 CMakeFiles/game.dir/src/score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/score.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/roguelike/src/score.cpp" > CMakeFiles/game.dir/src/score.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp" > CMakeFiles/game.dir/src/score.cpp.i
 
 CMakeFiles/game.dir/src/score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/score.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/roguelike/src/score.cpp" -o CMakeFiles/game.dir/src/score.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp" -o CMakeFiles/game.dir/src/score.cpp.s
+
+CMakeFiles/game.dir/src/tilesystem.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/tilesystem.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/tilesystem.cpp
+CMakeFiles/game.dir/src/tilesystem.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/game.dir/src/tilesystem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/tilesystem.cpp.o -MF CMakeFiles/game.dir/src/tilesystem.cpp.o.d -o CMakeFiles/game.dir/src/tilesystem.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp"
+
+CMakeFiles/game.dir/src/tilesystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/tilesystem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp" > CMakeFiles/game.dir/src/tilesystem.cpp.i
+
+CMakeFiles/game.dir/src/tilesystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/tilesystem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp" -o CMakeFiles/game.dir/src/tilesystem.cpp.s
+
+CMakeFiles/game.dir/src/weapon.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/weapon.cpp.o: /home/sarthhak/coding\ projects/RaylibRoguelike/src/weapon.cpp
+CMakeFiles/game.dir/src/weapon.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/game.dir/src/weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/weapon.cpp.o -MF CMakeFiles/game.dir/src/weapon.cpp.o.d -o CMakeFiles/game.dir/src/weapon.cpp.o -c "/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp"
+
+CMakeFiles/game.dir/src/weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/game.dir/src/weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp" > CMakeFiles/game.dir/src/weapon.cpp.i
+
+CMakeFiles/game.dir/src/weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp" -o CMakeFiles/game.dir/src/weapon.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
+"CMakeFiles/game.dir/src/camera.cpp.o" \
+"CMakeFiles/game.dir/src/enemy.cpp.o" \
+"CMakeFiles/game.dir/src/filereader.cpp.o" \
 "CMakeFiles/game.dir/src/main.cpp.o" \
 "CMakeFiles/game.dir/src/player.cpp.o" \
-"CMakeFiles/game.dir/src/filereader.cpp.o" \
+"CMakeFiles/game.dir/src/score.cpp.o" \
 "CMakeFiles/game.dir/src/tilesystem.cpp.o" \
-"CMakeFiles/game.dir/src/camera.cpp.o" \
-"CMakeFiles/game.dir/src/weapon.cpp.o" \
-"CMakeFiles/game.dir/src/enemy.cpp.o" \
-"CMakeFiles/game.dir/src/score.cpp.o"
+"CMakeFiles/game.dir/src/weapon.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
+game: CMakeFiles/game.dir/src/camera.cpp.o
+game: CMakeFiles/game.dir/src/enemy.cpp.o
+game: CMakeFiles/game.dir/src/filereader.cpp.o
 game: CMakeFiles/game.dir/src/main.cpp.o
 game: CMakeFiles/game.dir/src/player.cpp.o
-game: CMakeFiles/game.dir/src/filereader.cpp.o
-game: CMakeFiles/game.dir/src/tilesystem.cpp.o
-game: CMakeFiles/game.dir/src/camera.cpp.o
-game: CMakeFiles/game.dir/src/weapon.cpp.o
-game: CMakeFiles/game.dir/src/enemy.cpp.o
 game: CMakeFiles/game.dir/src/score.cpp.o
+game: CMakeFiles/game.dir/src/tilesystem.cpp.o
+game: CMakeFiles/game.dir/src/weapon.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: CMakeFiles/game.dir/compiler_depend.ts
-game: /usr/lib/libraylib.so
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/sarthhak/coding projects/roguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +221,6 @@ CMakeFiles/game.dir/clean:
 .PHONY : CMakeFiles/game.dir/clean
 
 CMakeFiles/game.dir/depend:
-	cd "/home/sarthhak/coding projects/roguelike/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sarthhak/coding projects/roguelike" "/home/sarthhak/coding projects/roguelike" "/home/sarthhak/coding projects/roguelike/build" "/home/sarthhak/coding projects/roguelike/build" "/home/sarthhak/coding projects/roguelike/build/CMakeFiles/game.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/home/sarthhak/coding projects/RaylibRoguelike/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/sarthhak/coding projects/RaylibRoguelike" "/home/sarthhak/coding projects/RaylibRoguelike" "/home/sarthhak/coding projects/RaylibRoguelike/build" "/home/sarthhak/coding projects/RaylibRoguelike/build" "/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles/game.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/game.dir/depend
 

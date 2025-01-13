@@ -7,12 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/sarthhak/coding projects/roguelike/CMakeLists.txt"
+  "/home/sarthhak/coding projects/RaylibRoguelike/CMakeLists.txt"
   "CMakeFiles/3.31.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.3/CMakeSystem.cmake"
-  "/usr/lib/cmake/raylib/raylib-config-version.cmake"
-  "/usr/lib/cmake/raylib/raylib-config.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
@@ -25,9 +23,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake/Modules/Compiler/GNU.cmake"
-  "/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-  "/usr/share/cmake/Modules/FindPackageMessage.cmake"
-  "/usr/share/cmake/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"

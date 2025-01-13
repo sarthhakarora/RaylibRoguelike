@@ -1,6 +1,7 @@
 CMakeFiles/game.dir/src/main.cpp.o: \
- /home/sarthhak/coding\ projects/roguelike/src/main.cpp \
- /usr/include/stdc-predef.h /usr/local/include/raylib.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/include/raylib.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
  /usr/include/c++/14.2.1/vector \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
@@ -58,7 +59,7 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.1/tuple \
- /home/sarthhak/coding\ projects/roguelike/src/player.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
@@ -118,7 +119,7 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/14.2.1/bits/charconv.h \
  /usr/include/c++/14.2.1/bits/basic_string.tcc \
- /home/sarthhak/coding\ projects/roguelike/src/filereader.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/filereader.h \
  /usr/include/c++/14.2.1/fstream /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/ios /usr/include/c++/14.2.1/exception \
  /usr/include/c++/14.2.1/bits/exception_ptr.h \
@@ -159,9 +160,9 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /home/sarthhak/coding\ projects/roguelike/src/tilesystem.h \
- /home/sarthhak/coding\ projects/roguelike/src/camera.h \
- /home/sarthhak/coding\ projects/roguelike/src/weapon.h \
- /home/sarthhak/coding\ projects/roguelike/src/enemy.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/tilesystem.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/camera.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/weapon.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.h \
  /usr/include/c++/14.2.1/iostream \
- /home/sarthhak/coding\ projects/roguelike/src/score.h
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/score.h

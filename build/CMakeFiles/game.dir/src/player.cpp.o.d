@@ -1,8 +1,8 @@
 CMakeFiles/game.dir/src/player.cpp.o: \
- /home/sarthhak/coding\ projects/roguelike/src/player.cpp \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.cpp \
  /usr/include/stdc-predef.h \
- /home/sarthhak/coding\ projects/roguelike/src/player.h \
- /usr/local/include/raylib.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/include/raylib.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
  /usr/include/c++/14.2.1/vector \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
