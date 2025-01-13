@@ -2,6 +2,7 @@
 #include "raylib.h"
 #include "raymath.h"
 #include "enemy.h"
+#include "score.h"
 
 #include <cmath>
 #include <ctime>
@@ -70,16 +71,17 @@ void Weapon::update(Rectangle playerRect, Vector2 mousePos, std::vector<Enemy::e
     // <-------------------------------------------------->
     // <------------------ COLLISIONS -------------------->
 
+    collision = false;
+
     for(int i = 0; i < enemies.size(); i++) {
         for(int j = 0; j < projectileList.size(); j++){
             if (CheckCollisionRecs(projectileList[j].dest, enemies[i].dest)) {
                 enemies.erase(enemies.begin() + i);
                 projectileList.erase(projectileList.begin() + j);
+                collision = true;
 
             }
-
         }
-        
     }
 
     // <-------------------------------------------------->

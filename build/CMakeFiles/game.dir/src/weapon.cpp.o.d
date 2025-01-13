@@ -169,4 +169,5 @@ CMakeFiles/game.dir/src/weapon.cpp.o: \
  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/score.h \
  /usr/include/c++/14.2.1/ctime

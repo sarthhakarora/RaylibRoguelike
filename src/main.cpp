@@ -43,7 +43,9 @@ int main() {
 
         EndMode2D();
 
+        score.update(weapon.collision);
         score.draw();
+        
         DrawFPS(20, 60);
         
         tilesystem.wallRects.clear(); 

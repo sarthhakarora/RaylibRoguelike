@@ -3,10 +3,10 @@
 
 class Score{
 public:    
-    int score;
+    int score = 0;
 
     void draw();
-    void update();
+    void update(bool collision);
 
 };
 

@@ -45,6 +45,8 @@ public:
     std::vector<Projectile> projectileList;
     Projectile projectile;
 
+    bool collision = false;
+
     void draw();
     void update(Rectangle playerRect, Vector2 mousePos, std::vector<Enemy::enemyStats>& enemies);
     
