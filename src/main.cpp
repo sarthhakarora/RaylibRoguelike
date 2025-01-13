@@ -6,6 +6,7 @@
 #include "camera.h"
 #include "weapon.h"
 #include "enemy.h"
+#include "score.h"
 
 int main() {
     InitWindow(800, 608, "Rougelike game");
@@ -17,6 +18,7 @@ int main() {
     GameCam camera;
     Weapon weapon;
     Enemy enemy;
+    Score score;
 
     camera.update();
     
@@ -40,8 +42,12 @@ int main() {
         weapon.draw();
 
         EndMode2D();
-        DrawFPS(10, 10);
+
+        score.draw();
+        DrawFPS(20, 60);
+        
         tilesystem.wallRects.clear(); 
+
         EndDrawing();
 
     }

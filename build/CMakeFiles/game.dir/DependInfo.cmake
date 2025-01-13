@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sarthhak/coding projects/roguelike/src/filereader.cpp" "CMakeFiles/game.dir/src/filereader.cpp.o" "gcc" "CMakeFiles/game.dir/src/filereader.cpp.o.d"
   "/home/sarthhak/coding projects/roguelike/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
   "/home/sarthhak/coding projects/roguelike/src/player.cpp" "CMakeFiles/game.dir/src/player.cpp.o" "gcc" "CMakeFiles/game.dir/src/player.cpp.o.d"
+  "/home/sarthhak/coding projects/roguelike/src/score.cpp" "CMakeFiles/game.dir/src/score.cpp.o" "gcc" "CMakeFiles/game.dir/src/score.cpp.o.d"
   "/home/sarthhak/coding projects/roguelike/src/tilesystem.cpp" "CMakeFiles/game.dir/src/tilesystem.cpp.o" "gcc" "CMakeFiles/game.dir/src/tilesystem.cpp.o.d"
   "/home/sarthhak/coding projects/roguelike/src/weapon.cpp" "CMakeFiles/game.dir/src/weapon.cpp.o" "gcc" "CMakeFiles/game.dir/src/weapon.cpp.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"

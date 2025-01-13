@@ -163,4 +163,5 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /home/sarthhak/coding\ projects/roguelike/src/camera.h \
  /home/sarthhak/coding\ projects/roguelike/src/weapon.h \
  /home/sarthhak/coding\ projects/roguelike/src/enemy.h \
- /usr/include/c++/14.2.1/iostream
+ /usr/include/c++/14.2.1/iostream \
+ /home/sarthhak/coding\ projects/roguelike/src/score.h

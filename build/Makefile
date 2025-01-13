@@ -249,6 +249,30 @@ src/player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/player.cpp.s
 .PHONY : src/player.cpp.s
 
+src/score.o: src/score.cpp.o
+.PHONY : src/score.o
+
+# target to build an object file
+src/score.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/score.cpp.o
+.PHONY : src/score.cpp.o
+
+src/score.i: src/score.cpp.i
+.PHONY : src/score.i
+
+# target to preprocess a source file
+src/score.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/score.cpp.i
+.PHONY : src/score.cpp.i
+
+src/score.s: src/score.cpp.s
+.PHONY : src/score.s
+
+# target to generate assembly for a file
+src/score.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/score.cpp.s
+.PHONY : src/score.cpp.s
+
 src/tilesystem.o: src/tilesystem.cpp.o
 .PHONY : src/tilesystem.o
 
@@ -321,6 +345,9 @@ help:
 	@echo "... src/player.o"
 	@echo "... src/player.i"
 	@echo "... src/player.s"
+	@echo "... src/score.o"
+	@echo "... src/score.i"
+	@echo "... src/score.s"
 	@echo "... src/tilesystem.o"
 	@echo "... src/tilesystem.i"
 	@echo "... src/tilesystem.s"

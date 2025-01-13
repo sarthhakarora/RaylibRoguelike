@@ -3,7 +3,7 @@ project(game)
 
 
 # Add source files
-add_executable(game src/main.cpp src/player.cpp src/filereader.cpp src/tilesystem.cpp src/camera.cpp src/weapon.cpp src/enemy.cpp)
+add_executable(game src/main.cpp src/player.cpp src/filereader.cpp src/tilesystem.cpp src/camera.cpp src/weapon.cpp src/enemy.cpp src/score.cpp)
 
 # Link libraries
 find_package(raylib REQUIRED)
