@@ -1,18 +1,27 @@
 #include "player.h"
+#include "enemy.h"
+#include "timer.h"
 #include "raylib.h"
+
 #include <iostream>
 
 Player::Player() {
+    // PLAYER
     player.height = 60;
     player.width = 45;
+    player.playerInvincible = 5.0;
     player.speed = 14.0f;
+    player.health = 2;
+    player.maxHealth = 2;
     player.movement = {0, 0};
     player.src = {0, 0, 15, 20};
     player.dest = {0, 0, player.width, player.height};
     player.textureRight = LoadTexture("../assets/player/playerRight.png");
     player.textureLeft = LoadTexture("../assets/player/playerLeft.png");
     player.currentTexture = player.textureRight;
-
+    player.tint = WHITE;
+    
+    
 }
 
 std::vector<Rectangle> checkCollision(Rectangle playerRect, std::vector<Rectangle>& rectList, Vector2 worldPlayerPos)
@@ -40,7 +49,12 @@ std::vector<Rectangle> checkCollision(Rectangle playerRect, std::vector<Rectangl
 
 void Player::draw()
 {
-    DrawTexturePro(player.currentTexture, player.src, player.dest, Vector2{player.width/2, player.height/2}, 0.0f, WHITE);
+    DrawTexturePro(
+        player.currentTexture,
+        player.src, player.dest,
+        Vector2{player.width/2, player.height/2},
+        0.0f,
+        player.tint);
 
 }
 
@@ -114,4 +128,82 @@ void Player::unload()
     UnloadTexture(player.textureRight);
     UnloadTexture(player.textureLeft);
 
+}
+
+void Player::healthDraw()
+{
+    for (size_t i = 0; i < healthList.size(); i++) {
+        DrawTexturePro(
+            healthList[i].currentTexture,
+            healthList[i].src,
+            healthList[i].dest,
+            Vector2{healthList[i].width/2,
+            healthList[i].height/2},
+            0.0f,
+            WHITE);     
+
+    }
+    
+}
+
+bool Player::healthUpdate(std::vector<Enemy::enemyStats> &enemies, bool gameActive)
+{
+    for (size_t i = 0; i < enemies.size(); i++) {
+        if (CheckCollisionRecs(enemies[i].dest, player.dest)) {
+            if(playerTimer.timerDone(&timer)) {
+                player.health--;
+
+            } 
+        
+            playerTimer.startTimer(&timer, 2.0f);
+            if (player.health <= 0) {
+                player.health = 0;
+
+            }
+            break;
+
+        }
+
+        // Give the player a RED tint to show that they have been hit and that they are invincible for 2 secs so they can move.
+        if (playerTimer.timerDone(&timer)) {
+            player.tint = WHITE;
+
+        } 
+
+        if (!playerTimer.timerDone(&timer)) {
+            player.tint = RED;
+
+        }
+
+    }
+
+    playerTimer.updateTimer(&timer);
+
+    if (healthList.size() != player.health) {
+        healthList.clear(); 
+        for (size_t i = 0; i < player.health; i++) {
+            health.height = 36;
+            health.width = 39;
+            health.fullHeartTexture = fullHeartTexture;
+            health.emptyHeartTexture = emptyHeartTexture;
+            health.currentTexture = health.fullHeartTexture;
+            health.src = {0, 0, 13, 12};
+            health.dest = {30 + (health.width * i + i * 7), 608 - 5 - health.height, health.width, health.height};
+
+            healthList.push_back(health);
+             
+        }
+
+    }
+
+    if (player.health <= 0) {
+        enemies.clear();
+        player.dest.x = 0;
+        player.dest.y = 0;
+        player.health = player.maxHealth;
+        gameActive = false;
+
+    }
+
+    return gameActive;
 }

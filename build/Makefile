@@ -273,6 +273,30 @@ src/score.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/score.cpp.s
 .PHONY : src/score.cpp.s
 
+src/startmenu.o: src/startmenu.cpp.o
+.PHONY : src/startmenu.o
+
+# target to build an object file
+src/startmenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/startmenu.cpp.o
+.PHONY : src/startmenu.cpp.o
+
+src/startmenu.i: src/startmenu.cpp.i
+.PHONY : src/startmenu.i
+
+# target to preprocess a source file
+src/startmenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/startmenu.cpp.i
+.PHONY : src/startmenu.cpp.i
+
+src/startmenu.s: src/startmenu.cpp.s
+.PHONY : src/startmenu.s
+
+# target to generate assembly for a file
+src/startmenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/startmenu.cpp.s
+.PHONY : src/startmenu.cpp.s
+
 src/tilesystem.o: src/tilesystem.cpp.o
 .PHONY : src/tilesystem.o
 
@@ -296,6 +320,30 @@ src/tilesystem.s: src/tilesystem.cpp.s
 src/tilesystem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/tilesystem.cpp.s
 .PHONY : src/tilesystem.cpp.s
+
+src/timer.o: src/timer.cpp.o
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
+
+src/timer.i: src/timer.cpp.i
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
+
+src/timer.s: src/timer.cpp.s
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
 
 src/weapon.o: src/weapon.cpp.o
 .PHONY : src/weapon.o
@@ -348,9 +396,15 @@ help:
 	@echo "... src/score.o"
 	@echo "... src/score.i"
 	@echo "... src/score.s"
+	@echo "... src/startmenu.o"
+	@echo "... src/startmenu.i"
+	@echo "... src/startmenu.s"
 	@echo "... src/tilesystem.o"
 	@echo "... src/tilesystem.i"
 	@echo "... src/tilesystem.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 	@echo "... src/weapon.o"
 	@echo "... src/weapon.i"
 	@echo "... src/weapon.s"

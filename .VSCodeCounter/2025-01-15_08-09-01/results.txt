@@ -1,0 +1,41 @@
+Date : 2025-01-15 08:09:01
+Directory : /home/sarthhak/coding projects/RaylibRoguelike/src
+Total : 17 files,  581 codes, 27 comments, 205 blanks, all 813 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         17 |        581 |         27 |        205 |        813 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                 |         17 |        581 |         27 |        205 |        813 |
++-------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                          | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/sarthhak/coding projects/RaylibRoguelike/src/camera.cpp     | C++      |          8 |          3 |          4 |         15 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/camera.h       | C++      |         11 |          1 |          5 |         17 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/enemy.cpp      | C++      |         69 |          1 |         11 |         81 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/enemy.h        | C++      |         27 |          0 |          7 |         34 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/filereader.cpp | C++      |         30 |          0 |         14 |         44 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/filereader.h   | C++      |         11 |          0 |          6 |         17 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp       | C++      |         50 |          0 |         22 |         72 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp     | C++      |        118 |          6 |         45 |        169 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/player.h       | C++      |         47 |          0 |         14 |         61 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp      | C++      |         16 |          1 |          9 |         26 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/score.h        | C++      |          9 |          0 |          4 |         13 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp | C++      |         29 |          3 |          8 |         40 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.h   | C++      |         36 |          3 |         12 |         51 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/timer.cpp      | C++      |         10 |          0 |          5 |         15 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/timer.h        | C++      |          9 |          0 |          3 |         12 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp     | C++      |         59 |          9 |         23 |         91 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/weapon.h       | C++      |         42 |          0 |         13 |         55 |
+| Total                                                             |          |        581 |         27 |        205 |        813 |
++-------------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -14,7 +14,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp" "CMakeFiles/game.dir/src/main.cpp.o" "gcc" "CMakeFiles/game.dir/src/main.cpp.o.d"
   "/home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp" "CMakeFiles/game.dir/src/player.cpp.o" "gcc" "CMakeFiles/game.dir/src/player.cpp.o.d"
   "/home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp" "CMakeFiles/game.dir/src/score.cpp.o" "gcc" "CMakeFiles/game.dir/src/score.cpp.o.d"
+  "/home/sarthhak/coding projects/RaylibRoguelike/src/startmenu.cpp" "CMakeFiles/game.dir/src/startmenu.cpp.o" "gcc" "CMakeFiles/game.dir/src/startmenu.cpp.o.d"
   "/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp" "CMakeFiles/game.dir/src/tilesystem.cpp.o" "gcc" "CMakeFiles/game.dir/src/tilesystem.cpp.o.d"
+  "/home/sarthhak/coding projects/RaylibRoguelike/src/timer.cpp" "CMakeFiles/game.dir/src/timer.cpp.o" "gcc" "CMakeFiles/game.dir/src/timer.cpp.o.d"
   "/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp" "CMakeFiles/game.dir/src/weapon.cpp.o" "gcc" "CMakeFiles/game.dir/src/weapon.cpp.o.d"
   "" "game" "gcc" "CMakeFiles/game.dir/link.d"
   )

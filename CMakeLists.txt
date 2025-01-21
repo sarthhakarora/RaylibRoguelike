@@ -19,8 +19,11 @@ file(GLOB_RECURSE SOURCES "src/*.cpp")
 # Add the executable
 add_executable(${PROJECT_NAME} ${SOURCES})
 
-# Link Raylib (and other required libraries)
+# Link Raylib (and other required libraries) 
 target_link_libraries(${PROJECT_NAME} raylib)
+
+set(CMAKE_BUILD_TYPE Debug)
+
 
 # Platform-specific dependencies
 if (UNIX AND NOT APPLE)

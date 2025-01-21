@@ -99,7 +99,8 @@
       "__config": "cpp",
       "__availability": "cpp",
       "__node_handle": "cpp",
-      "__tree": "cpp"
+      "__tree": "cpp",
+      "__hash_table": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
   }

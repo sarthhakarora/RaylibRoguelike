@@ -14,12 +14,10 @@ void Enemy::draw(Vector2 playerRect)
     for (size_t i = 0; i < enemies.size(); i++)
     {
         enemies[i].direction = Vector2Subtract(Vector2{playerRect.x, playerRect.y}, Vector2{enemies[i].dest.x, enemies[i].dest.y});
-        if (Vector2Length(enemies[i].direction) > 0)
-        {
+        if (Vector2Length(enemies[i].direction) > 0) {
             enemies[i].direction = Vector2Normalize(enemies[i].direction);
         }
-        else
-        {
+        else {
             enemies[i].direction = {0, 0};
         }
         enemies[i].velocity = Vector2Scale(enemies[i].direction, enemies[i].speed);
@@ -50,25 +48,29 @@ void Enemy::spawn(Vector2 playerRect)
         deathCube.src = {0, 0, 10, 11};
         deathCube.dest = {0, 0, deathCube.width, deathCube.height};
 
-        int spawnMargin = 100;
+        int spawnMargin = 300;
         int edge = rand() % 4;
         switch (edge)
         {
         case 0:
-            deathCube.dest.x = rand() % 400 + playerRect.x;
-            deathCube.dest.y = -spawnMargin;
+            // Above the player
+            deathCube.dest.x = rand() % 1200 + playerRect.x - 600;  
+            deathCube.dest.y = -rand() % spawnMargin - 330;
             break;
         case 1:
-            deathCube.dest.x = rand() % 400 - playerRect.x;
-            deathCube.dest.y = 600 + spawnMargin;
+            // Below the player
+            deathCube.dest.x = rand() % 1200 + playerRect.x - 600;  
+            deathCube.dest.y = rand() % spawnMargin + 330;
             break;
         case 2:
-            deathCube.dest.x = -spawnMargin;
-            deathCube.dest.y = rand() % 300 + playerRect.y;
+            // To the right of the player
+            deathCube.dest.x = rand() % spawnMargin + 430;
+            deathCube.dest.y = rand() % 1200 + playerRect.y - 600;  
             break;
         case 3:
-            deathCube.dest.x = 800 + spawnMargin;
-            deathCube.dest.y = rand() % 300 + playerRect.y;
+            // To the left of the player
+            deathCube.dest.x = -rand() % spawnMargin - 430;
+            deathCube.dest.y = rand() % 1200 + playerRect.y - 600; 
             break;
         }
 
@@ -77,5 +79,6 @@ void Enemy::spawn(Vector2 playerRect)
         deathCube.velocity = Vector2Scale(deathCube.direction, deathCube.speed);
 
         enemies.push_back(deathCube);
+
     }
 }

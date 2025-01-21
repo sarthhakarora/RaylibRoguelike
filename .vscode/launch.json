@@ -1,26 +1,26 @@
 {
     "version": "0.2.0",
     "configurations": [
-      {
-        "name": "Debug Game",
-        "type": "cppdbg",
-        "request": "launch",
-        "program": "${workspaceFolder}/build/game",
-        "args": [],
-        "stopAtEntry": false,
-        "cwd": "${workspaceFolder}/build",
-        "environment": [],
-        "externalConsole": false,
-        "MIMode": "gdb",
-        "setupCommands": [
-          {
-            "description": "Enable pretty-printing for gdb",
-            "text": "-enable-pretty-printing",
-            "ignoreFailures": true
-          }
-        ],
-        "preLaunchTask": "Build"
-      }
+        {
+            "name": "Debug Game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/game", // Runs ./game in the build folder
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build", // Set the working directory to build
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb", // Adjust this if GDB is located elsewhere
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build with Make" // Run the build task before debugging
+        }
     ]
-  }
-  
+}

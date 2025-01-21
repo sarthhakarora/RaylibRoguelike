@@ -7,10 +7,20 @@
 #include "weapon.h"
 #include "enemy.h"
 #include "score.h"
+#include "startmenu.h"
 
 int main() {
-    InitWindow(800, 608, "Rougelike game");
-    SetTargetFPS(60);
+    struct Window {
+        int height = 608;
+        int width = 800;
+        int fps = 60;
+        bool gameActive = false;
+        const char* title = "Rougelike game";
+
+    } window;
+
+    InitWindow(window.width, window.height, window.title);
+    SetTargetFPS(window.fps);
 
     Player player;
     Filereader filereader;
@@ -19,41 +29,60 @@ int main() {
     Weapon weapon;
     Enemy enemy;
     Score score;
-
+    Startmenu startmenu;
+    
     camera.update();
     
     while (!WindowShouldClose()) {
-        BeginDrawing();
-        ClearBackground(BLACK);
-        
-        camera.camera.target = Vector2{player.player.dest.x, player.player.dest.y};
-        
-        BeginMode2D(camera.camera);
-        
-        tilesystem.drawMap(player.player.dest);
-        
-        player.update(camera.camera, tilesystem.wallRects);
-        player.draw();
+        if (!window.gameActive) {
+            BeginDrawing();
+            ClearBackground(RAYWHITE);
 
-        enemy.spawn(Vector2{player.player.dest.x, player.player.dest.y});
-        enemy.draw(Vector2{player.player.dest.x, player.player.dest.y});
+            BeginDrawing();
+            
+            window.gameActive = startmenu.drawMenu(window.gameActive);
 
-        weapon.update(player.player.dest, GetScreenToWorld2D(GetMousePosition(), camera.camera), enemy.enemies);
-        weapon.draw();
+            std::cout << window.gameActive << std::endl;
 
-        EndMode2D();
-
-        score.update(weapon.collision);
-        score.draw();
+            EndDrawing();
+        }
         
-        DrawFPS(20, 60);
-        
-        tilesystem.wallRects.clear(); 
 
-        EndDrawing();
+        if (window.gameActive) {
+            BeginDrawing();
+            ClearBackground(BLACK);
+            
+            camera.camera.target = Vector2{player.player.dest.x, player.player.dest.y};
+            
+            BeginMode2D(camera.camera);
+            
+            tilesystem.drawMap(player.player.dest);
+            
+            player.update(camera.camera, tilesystem.wallRects);
+            player.draw();
 
+            enemy.spawn(Vector2{player.player.dest.x, player.player.dest.y});
+            enemy.draw(Vector2{player.player.dest.x, player.player.dest.y});
+
+            weapon.update(player.player.dest, GetScreenToWorld2D(GetMousePosition(), camera.camera), enemy.enemies);
+            weapon.draw();
+
+            EndMode2D();
+
+            score.update(weapon.collision);
+            score.draw();
+
+            window.gameActive = player.healthUpdate(enemy.enemies, window.gameActive);
+            player.healthDraw();
+            
+            DrawFPS(window.width - 90, window.height - 30);
+
+            tilesystem.wallRects.clear(); 
+
+            EndDrawing();
+
+        }
     }
-
     CloseWindow();
     return 0;
 }

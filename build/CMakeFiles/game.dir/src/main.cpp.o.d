@@ -60,6 +60,8 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/14.2.1/tuple \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/timer.h \
  /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
@@ -163,6 +165,6 @@ CMakeFiles/game.dir/src/main.cpp.o: \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/tilesystem.h \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/camera.h \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/weapon.h \
- /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.h \
  /usr/include/c++/14.2.1/iostream \
- /home/sarthhak/coding\ projects/RaylibRoguelike/src/score.h
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/score.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/startmenu.h

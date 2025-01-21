@@ -5,7 +5,7 @@
 
 void Score::draw()
 {
-    std::string str1 = "Score: ";
+    std::string str1 = "Kills: ";
     std::string str2 = std::to_string(score);
     const char* finalstr = (str1 + str2).c_str();
 

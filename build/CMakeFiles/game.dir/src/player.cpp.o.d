@@ -2,6 +2,7 @@ CMakeFiles/game.dir/src/player.cpp.o: \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.cpp \
  /usr/include/stdc-predef.h \
  /home/sarthhak/coding\ projects/RaylibRoguelike/src/player.h \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/enemy.h \
  /home/sarthhak/coding\ projects/RaylibRoguelike/include/raylib.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
  /usr/include/c++/14.2.1/vector \
@@ -59,7 +60,9 @@ CMakeFiles/game.dir/src/player.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
  /usr/include/c++/14.2.1/bits/uses_allocator.h \
  /usr/include/c++/14.2.1/bits/uses_allocator_args.h \
- /usr/include/c++/14.2.1/tuple /usr/include/c++/14.2.1/unordered_map \
+ /usr/include/c++/14.2.1/tuple \
+ /home/sarthhak/coding\ projects/RaylibRoguelike/src/timer.h \
+ /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
  /usr/include/c++/14.2.1/bits/hashtable_policy.h \
