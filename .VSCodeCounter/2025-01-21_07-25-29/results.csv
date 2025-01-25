@@ -1,0 +1,35 @@
+"filename", "language", "CMake", "C++", "TypeScript JSX", "XML", "comment", "blank", "total"
+"/home/sarthhak/coding projects/RaylibRoguelike/CMakeLists.txt", "CMake", 17, 0, 0, 0, 8, 11, 36
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/0x72_DungeonTilesetII_v1.7.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/asdf.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/main.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/untitled.tmx", "XML", 0, 0, 0, 108, 0, 1, 109
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/wer.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raygui.h", "C++", 0, 3570, 0, 0, 1145, 807, 5522
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raygui_icons.h", "C++", 0, 520, 0, 0, 23, 5, 548
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raylib.h", "C++", 0, 1272, 0, 0, 289, 153, 1714
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raymath.h", "C++", 0, 2069, 0, 0, 308, 574, 2951
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rcamera.h", "C++", 0, 286, 0, 0, 184, 86, 556
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rgestures.h", "C++", 0, 344, 0, 0, 123, 89, 556
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rlgl.h", "C++", 0, 3740, 0, 0, 851, 673, 5264
+"/home/sarthhak/coding projects/RaylibRoguelike/include/utils.h", "C++", 0, 31, 0, 0, 39, 12, 82
+"/home/sarthhak/coding projects/RaylibRoguelike/src/camera.cpp", "C++", 0, 8, 0, 0, 3, 4, 15
+"/home/sarthhak/coding projects/RaylibRoguelike/src/camera.h", "C++", 0, 11, 0, 0, 1, 5, 17
+"/home/sarthhak/coding projects/RaylibRoguelike/src/enemy.cpp", "C++", 0, 69, 0, 0, 5, 11, 85
+"/home/sarthhak/coding projects/RaylibRoguelike/src/enemy.h", "C++", 0, 27, 0, 0, 0, 7, 34
+"/home/sarthhak/coding projects/RaylibRoguelike/src/filereader.cpp", "C++", 0, 30, 0, 0, 0, 14, 44
+"/home/sarthhak/coding projects/RaylibRoguelike/src/filereader.h", "C++", 0, 11, 0, 0, 0, 6, 17
+"/home/sarthhak/coding projects/RaylibRoguelike/src/main.cpp", "C++", 0, 63, 0, 0, 0, 27, 90
+"/home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp", "C++", 0, 147, 0, 0, 7, 56, 210
+"/home/sarthhak/coding projects/RaylibRoguelike/src/player.h", "C++", 0, 52, 0, 0, 0, 14, 66
+"/home/sarthhak/coding projects/RaylibRoguelike/src/score.cpp", "C++", 0, 16, 0, 0, 1, 9, 26
+"/home/sarthhak/coding projects/RaylibRoguelike/src/score.h", "C++", 0, 9, 0, 0, 0, 4, 13
+"/home/sarthhak/coding projects/RaylibRoguelike/src/startmenu.cpp", "C++", 0, 14, 0, 0, 0, 5, 19
+"/home/sarthhak/coding projects/RaylibRoguelike/src/startmenu.h", "C++", 0, 13, 0, 0, 0, 4, 17
+"/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.cpp", "C++", 0, 29, 0, 0, 3, 8, 40
+"/home/sarthhak/coding projects/RaylibRoguelike/src/tilesystem.h", "C++", 0, 36, 0, 0, 3, 12, 51
+"/home/sarthhak/coding projects/RaylibRoguelike/src/timer.cpp", "C++", 0, 20, 0, 0, 0, 13, 33
+"/home/sarthhak/coding projects/RaylibRoguelike/src/timer.h", "C++", 0, 13, 0, 0, 0, 3, 16
+"/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.cpp", "C++", 0, 59, 0, 0, 9, 23, 91
+"/home/sarthhak/coding projects/RaylibRoguelike/src/weapon.h", "C++", 0, 42, 0, 0, 0, 13, 55
+"Total", "-", 17, 12501, 16, 108, 3002, 2653, 18297

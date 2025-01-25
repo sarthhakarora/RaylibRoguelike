@@ -1,10 +1,13 @@
 #include "timer.h"
 #include "raylib.h"
 
+#include <iostream>
+
 void timerClass::startTimer(timer *timer, float lifetime)
 {
     if (timer != __null) {
         timer->lifetime = lifetime;
+        timerState = true;
 
     }
 
@@ -23,10 +26,13 @@ void timerClass::updateTimer(timer *timer)
 
 bool timerClass::timerDone(timer *timer)
 {
-    if (timer != __null) 
+    if (timer != __null) {
         return timer->lifetime <= 0;
 
-        return false;
-    
+    } else {
+        return false; 
+
+    }
+        
     
 }

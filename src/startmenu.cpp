@@ -1,18 +1,26 @@
 #include "startmenu.h"
-
-#define RAYGUI_IMPLEMENTATION
-#include "raygui.h"
+#include "raylib.h"
 #include <iostream>
 
 Startmenu::Startmenu() {
-    menu.start = {100, 100, 300, 60};
+    startButton.src = {0, 0, 31, 12};
+    startButton.dest = {800/2-31*5/2, 300, 31*5, 12*5};
+    startButton.texture = LoadTexture("../assets/ui/start.png");
+
 }
 
-bool Startmenu::drawMenu(bool gameActive)
+void Startmenu::drawMenu()
 {
-    if (GuiButton(menu.start, "Start")) {
-        gameActive = true;
-    }
+    DrawTexturePro(startButton.texture, startButton.src, startButton.dest, Vector2{0.0f, 0.0f}, 0.0f, WHITE);
+    DrawTextPro(GetFontDefault(), "Raylib Rougelike", Vector2{270, 100}, Vector2{0, 0}, 0.0f, 30, 3, RED);
     
-    return gameActive;
+
+}
+
+void Startmenu::update(bool& gameActive, Vector2 mousePos)
+{    
+    if(CheckCollisionPointRec(mousePos, startButton.dest) && IsMouseButtonDown(0) || IsKeyDown(KEY_SPACE)) {
+        gameActive = true;
+
+    }
 }

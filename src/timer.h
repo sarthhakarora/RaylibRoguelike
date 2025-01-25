@@ -8,6 +8,8 @@ public:
         float lifetime;
     }timer;
 
+    bool timerState = false;
+
     void startTimer(timer* timer, float lifetime);
     void updateTimer(timer* timer);
     bool timerDone(timer* timer);

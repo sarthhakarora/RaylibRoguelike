@@ -1,0 +1,16 @@
+"filename", "language", "CMake", "C++", "TypeScript JSX", "XML", "comment", "blank", "total"
+"/home/sarthhak/coding projects/RaylibRoguelike/CMakeLists.txt", "CMake", 17, 0, 0, 0, 8, 11, 36
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/0x72_DungeonTilesetII_v1.7.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/asdf.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/main.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/untitled.tmx", "XML", 0, 0, 0, 108, 0, 1, 109
+"/home/sarthhak/coding projects/RaylibRoguelike/assets/map/wer.tsx", "TypeScript JSX", 0, 0, 4, 0, 0, 1, 5
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raygui.h", "C++", 0, 3570, 0, 0, 1145, 807, 5522
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raygui_icons.h", "C++", 0, 520, 0, 0, 23, 5, 548
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raylib.h", "C++", 0, 1272, 0, 0, 289, 153, 1714
+"/home/sarthhak/coding projects/RaylibRoguelike/include/raymath.h", "C++", 0, 2069, 0, 0, 308, 574, 2951
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rcamera.h", "C++", 0, 286, 0, 0, 184, 86, 556
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rgestures.h", "C++", 0, 344, 0, 0, 123, 89, 556
+"/home/sarthhak/coding projects/RaylibRoguelike/include/rlgl.h", "C++", 0, 3740, 0, 0, 851, 673, 5264
+"/home/sarthhak/coding projects/RaylibRoguelike/include/utils.h", "C++", 0, 31, 0, 0, 39, 12, 82
+"Total", "-", 17, 11832, 16, 108, 2970, 2415, 17358

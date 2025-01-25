@@ -23,11 +23,11 @@ public:
     Texture2D deathCubeTexture = LoadTexture("../assets/frames/deathCube.png");
     enemyStats deathCube;
     std::vector<enemyStats> enemies;
-    int MAXENEMYCOUNT = 30;
+    int maxenemycount = 5;
 
     Enemy();
     void draw(Vector2 playerRect);
-    void spawn(Vector2 playerRect);
+    void spawn(Vector2 playerRect, int score);
     
 };
 

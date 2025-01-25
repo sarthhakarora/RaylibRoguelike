@@ -5,13 +5,17 @@
 
 class Startmenu {
 public:
-    struct Menu
+    struct Button
     {
-        Rectangle start; 
-    } menu;
+        Rectangle src;
+        Rectangle dest; 
+        Texture texture;
+
+    } startButton;
     
     Startmenu();
-    bool drawMenu(bool gameActive);
+    void drawMenu();
+    void update(bool& gameActive, Vector2 mousePos);
 };
 
 #endif 

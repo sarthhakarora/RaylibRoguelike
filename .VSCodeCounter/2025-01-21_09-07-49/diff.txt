@@ -1,0 +1,50 @@
+Date : 2025-01-21 09:07:49
+Directory : /home/sarthhak/coding projects/RaylibRoguelike/src
+Total : 17 files,  -11964 codes, -2970 comments, -2408 blanks, all -17342 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| TypeScript JSX |          4 |        -16 |          0 |         -4 |        -20 |
+| CMake          |          1 |        -17 |         -8 |        -11 |        -36 |
+| XML            |          1 |       -108 |          0 |         -1 |       -109 |
+| C++            |         11 |    -11,823 |     -2,962 |     -2,392 |    -17,177 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                     | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                        |         17 |    -11,964 |     -2,970 |     -2,408 |    -17,342 |
+| . (Files)                                                                                |          3 |          9 |          0 |          7 |         16 |
+| ..                                                                                       |         14 |    -11,973 |     -2,970 |     -2,415 |    -17,358 |
+| .. (Files)                                                                               |          1 |        -17 |         -8 |        -11 |        -36 |
+| ../assets                                                                                |          5 |       -124 |          0 |         -5 |       -129 |
+| ../assets/map                                                                            |          5 |       -124 |          0 |         -5 |       -129 |
+| ../include                                                                               |          8 |    -11,832 |     -2,962 |     -2,399 |    -17,193 |
++------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                 | language       | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /home/sarthhak/coding projects/RaylibRoguelike/CMakeLists.txt                            | CMake          |        -17 |         -8 |        -11 |        -36 |
+| /home/sarthhak/coding projects/RaylibRoguelike/assets/map/0x72_DungeonTilesetII_v1.7.tsx | TypeScript JSX |         -4 |          0 |         -1 |         -5 |
+| /home/sarthhak/coding projects/RaylibRoguelike/assets/map/asdf.tsx                       | TypeScript JSX |         -4 |          0 |         -1 |         -5 |
+| /home/sarthhak/coding projects/RaylibRoguelike/assets/map/main.tsx                       | TypeScript JSX |         -4 |          0 |         -1 |         -5 |
+| /home/sarthhak/coding projects/RaylibRoguelike/assets/map/untitled.tmx                   | XML            |       -108 |          0 |         -1 |       -109 |
+| /home/sarthhak/coding projects/RaylibRoguelike/assets/map/wer.tsx                        | TypeScript JSX |         -4 |          0 |         -1 |         -5 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/raygui.h                          | C++            |     -3,570 |     -1,145 |       -807 |     -5,522 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/raygui_icons.h                    | C++            |       -520 |        -23 |         -5 |       -548 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/raylib.h                          | C++            |     -1,272 |       -289 |       -153 |     -1,714 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/raymath.h                         | C++            |     -2,069 |       -308 |       -574 |     -2,951 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/rcamera.h                         | C++            |       -286 |       -184 |        -86 |       -556 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/rgestures.h                       | C++            |       -344 |       -123 |        -89 |       -556 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/rlgl.h                            | C++            |     -3,740 |       -851 |       -673 |     -5,264 |
+| /home/sarthhak/coding projects/RaylibRoguelike/include/utils.h                           | C++            |        -31 |        -39 |        -12 |        -82 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/player.cpp                            | C++            |          4 |          0 |          4 |          8 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/timer.cpp                             | C++            |          4 |          0 |          2 |          6 |
+| /home/sarthhak/coding projects/RaylibRoguelike/src/timer.h                               | C++            |          1 |          0 |          1 |          2 |
+| Total                                                                                    |                |    -11,964 |     -2,970 |     -2,408 |    -17,342 |
++------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+

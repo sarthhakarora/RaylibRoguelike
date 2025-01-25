@@ -57,7 +57,7 @@ public:
     void update(Camera2D cam, std::vector<Rectangle> rectList);
     void unload();
     void healthDraw();
-    bool healthUpdate(std::vector<Enemy::enemyStats> &enemies, bool gameActive);
+    bool healthUpdate(std::vector<Enemy::enemyStats> &enemies, bool gameActive, int &score);
 
 };
 

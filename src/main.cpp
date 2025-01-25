@@ -40,9 +40,10 @@ int main() {
 
             BeginDrawing();
             
-            window.gameActive = startmenu.drawMenu(window.gameActive);
+            startmenu.update(window.gameActive, GetMousePosition());
+            startmenu.drawMenu();
 
-            std::cout << window.gameActive << std::endl;
+            // std::cout << window.gameActive << std::endl;
 
             EndDrawing();
         }
@@ -61,7 +62,7 @@ int main() {
             player.update(camera.camera, tilesystem.wallRects);
             player.draw();
 
-            enemy.spawn(Vector2{player.player.dest.x, player.player.dest.y});
+            enemy.spawn(Vector2{player.player.dest.x, player.player.dest.y}, score.score);
             enemy.draw(Vector2{player.player.dest.x, player.player.dest.y});
 
             weapon.update(player.player.dest, GetScreenToWorld2D(GetMousePosition(), camera.camera), enemy.enemies);
@@ -72,7 +73,7 @@ int main() {
             score.update(weapon.collision);
             score.draw();
 
-            window.gameActive = player.healthUpdate(enemy.enemies, window.gameActive);
+            window.gameActive = player.healthUpdate(enemy.enemies, window.gameActive, score.score);
             player.healthDraw();
             
             DrawFPS(window.width - 90, window.height - 30);

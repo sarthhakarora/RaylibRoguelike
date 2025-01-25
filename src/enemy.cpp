@@ -37,13 +37,55 @@ void Enemy::draw(Vector2 playerRect)
     }
 }
 
-void Enemy::spawn(Vector2 playerRect)
+void Enemy::spawn(Vector2 playerRect, int score)
 {
-    for (size_t i = enemies.size(); i < MAXENEMYCOUNT; i++)
+    if (score >= 5) {
+        maxenemycount = 10;
+        
+        for (size_t i = 0; i <= enemies.size(); i++) {
+            enemies[i].speed = 3;
+        }
+
+    }
+    else if (score >= 10) {
+        maxenemycount = 20;
+
+        for (size_t i = 0; i <= enemies.size(); i++) {
+            enemies[i].speed = 4;
+        }
+        
+    }
+    else if (score >= 50) {
+        maxenemycount = 30;
+
+        for (size_t i = 0; i <= enemies.size(); i++) {
+            enemies[i].speed = 6;
+        }
+        
+    }
+    else if (score >= 100) {
+        maxenemycount = 35;
+
+        for (size_t i = 0; i <= enemies.size(); i++) {
+            enemies[i].speed = 7;
+        }
+        
+    }
+    else if (score >= 150) {
+        maxenemycount = 45;
+
+        for (size_t i = 0; i <= enemies.size(); i++) {
+            enemies[i].speed = 8;
+        }
+        
+    }
+
+
+    for (size_t i = enemies.size(); i < maxenemycount; i++)
     {
         deathCube.width = 30;
         deathCube.height = 33;
-        deathCube.speed = rand() % 4 + 3;
+        deathCube.speed = rand() % 4 + 2;
         deathCube.angle = 0.0f;
         deathCube.src = {0, 0, 10, 11};
         deathCube.dest = {0, 0, deathCube.width, deathCube.height};
@@ -57,21 +99,25 @@ void Enemy::spawn(Vector2 playerRect)
             deathCube.dest.x = rand() % 1200 + playerRect.x - 600;  
             deathCube.dest.y = -rand() % spawnMargin - 330;
             break;
+
         case 1:
             // Below the player
             deathCube.dest.x = rand() % 1200 + playerRect.x - 600;  
             deathCube.dest.y = rand() % spawnMargin + 330;
             break;
+
         case 2:
             // To the right of the player
             deathCube.dest.x = rand() % spawnMargin + 430;
             deathCube.dest.y = rand() % 1200 + playerRect.y - 600;  
             break;
+
         case 3:
             // To the left of the player
             deathCube.dest.x = -rand() % spawnMargin - 430;
             deathCube.dest.y = rand() % 1200 + playerRect.y - 600; 
             break;
+
         }
 
         deathCube.texture = deathCubeTexture;
