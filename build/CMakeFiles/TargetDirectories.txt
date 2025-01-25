@@ -1,3 +1,0 @@
-/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles/game.dir
-/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles/edit_cache.dir
-/home/sarthhak/coding projects/RaylibRoguelike/build/CMakeFiles/rebuild_cache.dir
